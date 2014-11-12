@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var image = UIImageView(frame: CGRectMake(50, 50, 200, 200))
+        self.view.addSubview(image)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,7 +22,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

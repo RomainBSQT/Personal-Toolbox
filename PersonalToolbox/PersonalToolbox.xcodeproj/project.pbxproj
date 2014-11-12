@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30B8E43B1A0B17080015D911 /* UIImageView+RBTDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B8E43A1A0B17080015D911 /* UIImageView+RBTDownload.swift */; };
 		30DADD771A0870DF0067BE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DADD761A0870DF0067BE34 /* AppDelegate.swift */; };
 		30DADD791A0870DF0067BE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DADD781A0870DF0067BE34 /* ViewController.swift */; };
 		30DADD7C1A0870DF0067BE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DADD7A1A0870DF0067BE34 /* Main.storyboard */; };
 		30DADD7E1A0870DF0067BE34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DADD7D1A0870DF0067BE34 /* Images.xcassets */; };
 		30DADD811A0870DF0067BE34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30DADD7F1A0870DF0067BE34 /* LaunchScreen.xib */; };
 		30DADD8D1A0870DF0067BE34 /* PersonalToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DADD8C1A0870DF0067BE34 /* PersonalToolboxTests.swift */; };
+		30DADD981A0871BE0067BE34 /* UIColor+RBTColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DADD971A0871BE0067BE34 /* UIColor+RBTColors.swift */; };
+		30DADD9A1A0871D50067BE34 /* RBTCircularLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DADD991A0871D50067BE34 /* RBTCircularLoadingAnimation.swift */; };
+		30DADD9C1A08736B0067BE34 /* RBTNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DADD9B1A08736B0067BE34 /* RBTNetworking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30B8E43A1A0B17080015D911 /* UIImageView+RBTDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+RBTDownload.swift"; sourceTree = "<group>"; };
 		30DADD711A0870DF0067BE34 /* PersonalToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DADD751A0870DF0067BE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30DADD761A0870DF0067BE34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		30DADD861A0870DF0067BE34 /* PersonalToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DADD8B1A0870DF0067BE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30DADD8C1A0870DF0067BE34 /* PersonalToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalToolboxTests.swift; sourceTree = "<group>"; };
+		30DADD971A0871BE0067BE34 /* UIColor+RBTColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RBTColors.swift"; sourceTree = "<group>"; };
+		30DADD991A0871D50067BE34 /* RBTCircularLoadingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBTCircularLoadingAnimation.swift; sourceTree = "<group>"; };
+		30DADD9B1A08736B0067BE34 /* RBTNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBTNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 				30DADD7A1A0870DF0067BE34 /* Main.storyboard */,
 				30DADD7D1A0870DF0067BE34 /* Images.xcassets */,
 				30DADD7F1A0870DF0067BE34 /* LaunchScreen.xib */,
+				30DADD961A08716B0067BE34 /* Toolbox */,
 				30DADD741A0870DF0067BE34 /* Supporting Files */,
 			);
 			path = PersonalToolbox;
@@ -110,6 +119,17 @@
 				30DADD8B1A0870DF0067BE34 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30DADD961A08716B0067BE34 /* Toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				30DADD971A0871BE0067BE34 /* UIColor+RBTColors.swift */,
+				30DADD991A0871D50067BE34 /* RBTCircularLoadingAnimation.swift */,
+				30DADD9B1A08736B0067BE34 /* RBTNetworking.swift */,
+				30B8E43A1A0B17080015D911 /* UIImageView+RBTDownload.swift */,
+			);
+			path = Toolbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				30DADD791A0870DF0067BE34 /* ViewController.swift in Sources */,
+				30DADD9A1A0871D50067BE34 /* RBTCircularLoadingAnimation.swift in Sources */,
+				30DADD9C1A08736B0067BE34 /* RBTNetworking.swift in Sources */,
+				30B8E43B1A0B17080015D911 /* UIImageView+RBTDownload.swift in Sources */,
 				30DADD771A0870DF0067BE34 /* AppDelegate.swift in Sources */,
+				30DADD981A0871BE0067BE34 /* UIColor+RBTColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +429,7 @@
 				30DADD921A0870DF0067BE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30DADD931A0870DF0067BE34 /* Build configuration list for PBXNativeTarget "PersonalToolboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				30DADD951A0870DF0067BE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
